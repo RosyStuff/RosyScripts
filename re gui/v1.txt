@@ -1,0 +1,689 @@
+-- Created by Rosy
+
+local ScreenGui = Instance.new("ScreenGui")
+local luding = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local LOADING = Instance.new("TextLabel")
+local skip = Instance.new("TextButton")
+local yoboi = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local home = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local destruction = Instance.new("Frame")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local hidebtn = Instance.new("TextButton")
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ResetOnSpawn = false
+
+luding.Name = "luding"
+luding.Parent = ScreenGui
+luding.BackgroundColor3 = Color3.new(0, 0, 0)
+luding.BorderColor3 = Color3.new(0, 0, 0)
+luding.BorderSizePixel = 0
+luding.Position = UDim2.new(0.129713431, 0, 0.202959836, 0)
+luding.Size = UDim2.new(0, 429, 0, 310)
+
+TextLabel.Parent = luding
+TextLabel.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 382, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "2016 game destroyer gayui"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+
+TextButton.Parent = TextLabel
+TextButton.BackgroundColor3 = Color3.new(1, 0, 0)
+TextButton.BorderColor3 = Color3.new(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(1, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 47, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.new(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14
+TextButton.TextWrapped = true
+
+LOADING.Name = "LOADING"
+LOADING.Parent = luding
+LOADING.BackgroundColor3 = Color3.new(0, 0, 0)
+LOADING.BorderColor3 = Color3.new(0, 0, 0)
+LOADING.BorderSizePixel = 0
+LOADING.Position = UDim2.new(0.0536130518, 0, 0.303225815, 0)
+LOADING.Size = UDim2.new(0, 389, 0, 149)
+LOADING.Font = Enum.Font.SourceSans
+LOADING.Text = "Loading"
+LOADING.TextColor3 = Color3.new(1, 1, 1)
+LOADING.TextScaled = true
+LOADING.TextSize = 14
+LOADING.TextWrapped = true
+
+skip.Name = "skip"
+skip.Parent = luding
+skip.BackgroundColor3 = Color3.new(0.666667, 0, 0)
+skip.BorderColor3 = Color3.new(0, 0, 0)
+skip.BorderSizePixel = 0
+skip.Position = UDim2.new(0.265734255, 0, 0.838709652, 0)
+skip.Size = UDim2.new(0, 200, 0, 50)
+skip.Font = Enum.Font.SourceSans
+skip.Text = "skip loading"
+skip.TextColor3 = Color3.new(1, 1, 1)
+skip.TextScaled = true
+skip.TextSize = 14
+skip.TextWrapped = true
+
+yoboi.Name = "yoboi"
+yoboi.Parent = ScreenGui
+yoboi.BackgroundColor3 = Color3.new(0, 0, 0)
+yoboi.BorderColor3 = Color3.new(0, 0, 0)
+yoboi.BorderSizePixel = 0
+yoboi.Position = UDim2.new(0.129713431, 0, 0.202959836, 0)
+yoboi.Size = UDim2.new(0, 428, 0, 310)
+yoboi.Visible = false
+
+TextLabel_2.Parent = yoboi
+TextLabel_2.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_2.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 336, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "2016 game destroyer gayui"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14
+TextLabel_2.TextWrapped = true
+
+TextButton_2.Parent = TextLabel_2
+TextButton_2.BackgroundColor3 = Color3.new(1, 0, 0)
+TextButton_2.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(1, 0, 0, 0)
+TextButton_2.Size = UDim2.new(0, 47, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "X"
+TextButton_2.TextColor3 = Color3.new(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14
+TextButton_2.TextWrapped = true
+
+TextButton_3.Parent = TextLabel_2
+TextButton_3.BackgroundColor3 = Color3.new(1, 1, 0)
+TextButton_3.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(1.1398809, 0, 0, 0)
+TextButton_3.Size = UDim2.new(0, 47, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "-"
+TextButton_3.TextColor3 = Color3.new(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14
+TextButton_3.TextWrapped = true
+
+home.Name = "home"
+home.Parent = yoboi
+home.BackgroundColor3 = Color3.new(0, 0, 0)
+home.BorderColor3 = Color3.new(0, 0, 0)
+home.BorderSizePixel = 0
+home.Position = UDim2.new(0, 0, 0.254838705, 0)
+home.Size = UDim2.new(0, 428, 0, 216)
+
+TextLabel_3.Parent = home
+TextLabel_3.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_3.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Welcome, nil"
+TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = home
+TextLabel_4.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_4.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.00233644852, 0, 0.228343397, 0)
+TextLabel_4.Size = UDim2.new(0, 428, 0, 180)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = ""
+TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14
+TextLabel_4.TextWrapped = true
+
+destruction.Name = "destruction"
+destruction.Parent = yoboi
+destruction.BackgroundColor3 = Color3.new(0, 0, 0)
+destruction.BorderColor3 = Color3.new(0, 0, 0)
+destruction.BorderSizePixel = 0
+destruction.Position = UDim2.new(0, 0, 0.254838705, 0)
+destruction.Size = UDim2.new(0, 428, 0, 216)
+destruction.Visible = false
+
+TextButton_4.Parent = destruction
+TextButton_4.BackgroundColor3 = Color3.new(0, 0, 0)
+TextButton_4.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Size = UDim2.new(0, 200, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "JKORA"
+TextButton_4.TextColor3 = Color3.new(1, 1, 1)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14
+TextButton_4.TextWrapped = true
+
+TextButton_5.Parent = destruction
+TextButton_5.BackgroundColor3 = Color3.new(0, 0, 0)
+TextButton_5.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.532710254, 0, 0, 0)
+TextButton_5.Size = UDim2.new(0, 200, 0, 50)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "MEMZ"
+TextButton_5.TextColor3 = Color3.new(1, 1, 1)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14
+TextButton_5.TextWrapped = true
+
+TextButton_6.Parent = destruction
+TextButton_6.BackgroundColor3 = Color3.new(0, 0, 0)
+TextButton_6.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0, 0, 0.356481493, 0)
+TextButton_6.Size = UDim2.new(0, 200, 0, 50)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Unanchor all parts"
+TextButton_6.TextColor3 = Color3.new(1, 1, 1)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14
+TextButton_6.TextWrapped = true
+
+TextButton_7.Parent = destruction
+TextButton_7.BackgroundColor3 = Color3.new(0, 0, 0)
+TextButton_7.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0.532710254, 0, 0.356481493, 0)
+TextButton_7.Size = UDim2.new(0, 200, 0, 50)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Kick All"
+TextButton_7.TextColor3 = Color3.new(1, 1, 1)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14
+TextButton_7.TextWrapped = true
+
+TextButton_8.Parent = destruction
+TextButton_8.BackgroundColor3 = Color3.new(0, 0, 0)
+TextButton_8.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0, 0, 0.652777791, 0)
+TextButton_8.Size = UDim2.new(0, 200, 0, 50)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "Chat All"
+TextButton_8.TextColor3 = Color3.new(1, 1, 1)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14
+TextButton_8.TextWrapped = true
+
+TextButton_9.Parent = yoboi
+TextButton_9.BackgroundColor3 = Color3.new(0, 0, 0)
+TextButton_9.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(0.00233644852, 0, 0.141935483, 0)
+TextButton_9.Size = UDim2.new(0, 79, 0, 35)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Home"
+TextButton_9.TextColor3 = Color3.new(1, 1, 1)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14
+TextButton_9.TextWrapped = true
+
+TextButton_10.Parent = yoboi
+TextButton_10.BackgroundColor3 = Color3.new(0, 0, 0)
+TextButton_10.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Position = UDim2.new(0.200934574, 0, 0.141935483, 0)
+TextButton_10.Size = UDim2.new(0, 79, 0, 35)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Destruction"
+TextButton_10.TextColor3 = Color3.new(1, 1, 1)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 14
+TextButton_10.TextWrapped = true
+
+hidebtn.Name = "hidebtn"
+hidebtn.Parent = ScreenGui
+hidebtn.BackgroundColor3 = Color3.new(1, 1, 0)
+hidebtn.BorderColor3 = Color3.new(0, 0, 0)
+hidebtn.BorderSizePixel = 0
+hidebtn.Position = UDim2.new(0.0185185187, 0, 0.846153855, 0)
+hidebtn.Size = UDim2.new(0, 47, 0, 50)
+hidebtn.Visible = false
+hidebtn.Font = Enum.Font.SourceSans
+hidebtn.Text = "+"
+hidebtn.TextColor3 = Color3.new(0, 0, 0)
+hidebtn.TextScaled = true
+hidebtn.TextSize = 14
+hidebtn.TextWrapped = true
+
+
+local function LYDGL_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(LYDGL_fake_script)()
+local function ZUIJYYC_fake_script() -- skip.LocalScript 
+	local script = Instance.new('LocalScript', skip)
+
+	script.Parent.MouseButton1Click:Connect(function() 
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.yoboi.Visible = true
+	end)
+end
+coroutine.wrap(ZUIJYYC_fake_script)()
+local function BYGXK_fake_script() -- luding.LocalScript 
+	local script = Instance.new('LocalScript', luding)
+
+	wait(2)
+	script.Parent.Visible = false
+	script.Parent.Parent.yoboi.Visible = true
+end
+coroutine.wrap(BYGXK_fake_script)()
+local function PSDGR_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(PSDGR_fake_script)()
+local function GIEXMSL_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.hidebtn.Visible = true
+	end)
+end
+coroutine.wrap(GIEXMSL_fake_script)()
+local function RQZN_fake_script() -- TextLabel_3.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_3)
+
+	local boi = game.Players.LocalPlayer.Name
+	script.Parent.Text = "Welcome, "..boi
+end
+coroutine.wrap(RQZN_fake_script)()
+local function CZHDXMB_fake_script() -- TextLabel_4.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_4)
+
+	str = [[Gui by RosyExploits
+	All scripts are  coded by me from scratch
+	Some are from other sites
+	Version: 1
+	Type: Beta (common to contain bugs)]]
+	script.Parent.Text = str
+end
+coroutine.wrap(CZHDXMB_fake_script)()
+local function UXWLXX_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	-- jkora.lua
+	-- sources: https://files.luagunsx.xyz, jkorasite github
+	script.Parent.MouseButton1Click:Connect(function()
+	setsky = function(sky,tex)
+		sky.SkyboxBk = tex
+		sky.SkyboxDn = tex
+		sky.SkyboxFt = tex
+		sky.SkyboxRt = tex
+		sky.SkyboxLf = tex
+		sky.SkyboxUp = tex
+	end
+	
+	for i,v in pairs(game.Lighting:GetChildren()) do
+		if tostring(v.className) == "Sky" then
+			setsky(v,"http://www.roblox.com/asset/?id=2897145648")
+		end
+	end
+	
+	
+	local a = 0
+	recursion = function(child)
+		for i,v in pairs(child:GetChildren()) do
+			if tostring(v.className) == "Part" or tostring(v.className) == "SpawnLocation" or tostring(v.className) == "TrussPart" then
+				v.CanCollide = false
+				v.Anchored = true
+				v.BrickColor = BrickColor.new(Color3.new(math.random(),math.random(),math.random()))
+				v.CFrame = v.CFrame * CFrame.Angles(.1,.1,.1) * CFrame.new(math.sin(a*5)*40,math.cos(a*5)*40,math.sin(a*5)*40)
+				v.CFrame = v.CFrame * CFrame.new(v.Position.Unit * (math.sin(a*1)*30) )
+			elseif tostring(v.className) == "Sound" then
+				v.Pitch = math.random() + .5
+				v.Volume = math.random()
+				v.Parent = game.Workspace
+				v:Play()                
+			end
+			recursion(v)
+		end
+	end
+	
+	while wait(0.2) do
+		a = a + 10
+		recursion(game.Workspace)
+		end
+	end)
+end
+coroutine.wrap(UXWLXX_fake_script)()
+local function JLGF_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	-- memz.lua
+	-- sources: https://files.luagunsx.xyz
+	-- input
+	script.Parent.MouseButton1Click:Connect(function()
+	function GetRecursiveChildren(Part, Children)
+		for _, Part in pairs(Part:GetChildren()) do
+			pcall(function()
+				table.insert(Children, Part)
+				GetRecursiveChildren(Part, Children)
+			end)
+		end
+		return Children
+	end
+	
+	
+	local Phrases = {
+		"YOU ARE NOW Deo's L\2OVE-PUPPY",
+		"SergeantSmokey was here!",
+		"SergeantSmokey was here!",
+		"SergeantSmokey was here!",
+		"SergeantSmokey was here!",
+		"SergeantSmokey was here!!",
+		"SergeantSmokey was here!",
+		"Meow.",
+		"SergeantSmokey was here!",
+		"1x1x1x1 Was Not Here",
+		"SergeantSmokey was here!",
+		"SergeantSmokey was here!",
+		"Oh, let's blow some things up!",
+		"SergeantSmokey was here!",
+		"Eat my shirt!",
+		"No shirt, no shoes, no torso, no service.",
+		"You got owned, bi-yatch.",
+		"I heard you like hacks. Me too! Wow, we have so much in common! Want to go out some time?",
+		"The Aperture Science Weighted Companion Cube will not stab you, and cannot speak.",
+		"Please wait while I warm up the neurotoxins...",
+		"Goodbye my only friend... / Wait, did you think I meant you? / That would be funny, / if it weren't so sad.",
+		"Yousa gonna dia!",
+		"THIS IS SPART- ERR I MEAN DEO!",
+		"SergeantSmokey flashes!",
+		"SergeantSmokey flashes!",
+		"I'm wild for leo.",
+		"HURR DURR.",
+		"DURR.",
+		"HURR.",
+		"I'll kick your puppy!",
+		"Oh lawdy...",
+		"What have I done?!",
+		":3",
+		"Who's the noob? You are, hurr.",
+		"Deo l\2oves you with hate.",
+		"Deo would like to take this moment to tell you how much he hates you.",
+		"Deo is your new and old God.",
+		"Deo is the cake.",
+		"Telamon is mad you took his chicken.",
+		"LEROOOOOOOOOOOOOOY JENKIIIIIIIIIIIIIIIIIIIIIIINS",
+		"Clockwork was never de-admined D;",
+		"We all have hearts of gold! Excuse me while I shatter said gold into pieces.",
+		"I shot Santa. Christmas is canceled.",
+		"I eat children.",
+		"Don't be surprised if the world ends. That's just my way of saying hello.",
+		"I'M GOING TO SM\2OKE A LOT OF CR\2ACK.",
+		"Life is wonderful. Without it we'd all be dead.",
+		"Daddy, why doesn't this magnet pick up this floppy disk?",
+		"Give me ambiguity or give me something else.",
+		"I.R.S.: We've got what it takes to take what you've got!",
+		"We are born naked, wet and hungry. Then things get worse.",
+		"Make it idiot proof and someone will make a better idiot.",
+		"He who laughs last thinks slowest!",
+		"Always remember you're unique, just like everyone else.",
+		"\"More hay, Trigger?\" \"No thanks, Roy, I'm stuffed!\"",
+		"A flashlight is a case for holding dead batteries.",
+		"Lottery: A tax on people who are bad at math.",
+		"Error, no keyboard - press F1 to continue.",
+		"There's too much blood in my caffeine system.",
+		"Artificial Intelligence usually beats real stupidity.",
+		"Hard work has a future payoff. Laziness pays off now.",
+		"\"Very funny, Scotty. Now beam down my clothes.\"",
+		"Puritanism: The haunting fear that someone, somewhere may be happy.",
+		"Consciousness: that annoying time between naps.",
+		"Don't take life too seriously, you won't get out alive.",
+		"I don't suffer from insanity. I enjoy every minute of it.",
+		"Better to understand a little than to misunderstand a lot.",
+		"The gene pool could use a little chlorine.",
+		"When there's a will, I want to be in it.",
+		"Okay, who put a \"stop payment\" on my reality check?",
+		"We have enough youth, how about a fountain of SMART?",
+		"Programming is an art form that fights back.",
+		"\"Daddy, what does FORMATTING DRIVE C mean?\"",
+		"All wiyht. Rho sritched mg kegtops awound?",
+		"My mail reader can beat up your mail reader.",
+		"Never forget: 2 + 2 = 5 for extremely large values of 2.",
+		"Nobody has ever, ever, EVER learned all of WordPerfect.",
+		"To define recursion, we must first define recursion.",
+		"Good programming is 99% sweat and 1% coffee.",
+		"Home is where you hang your @",
+		"The E-mail of the species is more deadly than the mail.",
+		"A journey of a thousand sites begins with a single click.",
+		"You can't teach a new mouse old clicks.",
+		"Great groups from little icons grow.",
+		"Speak softly and carry a cellular phone.",
+		"C:\\ is the root of all directories.",
+		"Don't put all your hypes in one home page.",
+		"Pentium wise; pen and paper foolish.",
+		"The modem is the message.",
+		"Too many clicks spoil the browse.",
+		"The geek shall inherit the earth.",
+		"A chat has nine lives.",
+		"Don't byte off more than you can view.",
+		"Fax is stranger than fiction.",
+		"What boots up must come down.",
+		"Windows will never cease.   (ed. oh sure...)",
+		"In Gates we trust.    (ed.  yeah right....)",
+		"Virtual reality is its own reward.",
+		"Modulation in all things.",
+		"A user and his leisure time are soon parted.",
+		"There's no place like http://www.home.com",
+		"Know what to expect before you connect.",
+		"Oh, what a tangled website we weave when first we practice.",
+		"Speed thrills.",
+		"Give a man a fish and you feed him for a day; teach him to use the Net and he won't bother you for weeks."
+	}
+	
+	
+	Textures = {
+		"http://www.roblox.com/Asset/?id=59515602",
+		"http://www.roblox.com/Asset/?id=48308661",
+		"http://www.roblox.com/Asset/?id=42198984",
+		"http://www.roblox.com/Asset/?id=59421095",
+		"http://www.roblox.com/Asset/?id=59454680",
+		"http://www.roblox.com/Asset/?id=59784967",
+		"http://www.roblox.com/Asset/?id=45791014",
+		"http://www.roblox.com/Asset/?id=58492970",
+		"http://www.roblox.com/Asset/?id=59278856"
+	}
+	
+	
+	Instance.new("Sky", game:GetService("Lighting")).CelestialBodiesShown = false
+	Instance.new("Message", Workspace)
+	Instance.new("Hint", Workspace)
+	
+	
+	while true do
+		for _, Part in pairs(GetRecursiveChildren(game, {})) do
+			pcall(function()
+				if not Part:IsA("Player")then
+					pcall(function() Part.Name = Phrases[math.random(1, #Phrases)] end)
+					pcall(function() Part.Text = Phrases[math.random(1, #Phrases)] end)
+					pcall(function() Part.Image = Textures[math.random(1, #Textures)] end)
+					pcall(function() Part.TextureId = Textures[math.random(1, #Textures)] end)
+					pcall(function() Part.Texture = Textures[math.random(1, #Textures)] end)
+					pcall(function() Part.ShirtTemplate = Textures[math.random(1, #Textures)] end)
+					pcall(function() Part.PantsTemplate = Textures[math.random(1, #Textures)] end)
+					pcall(function() Part.Graphic = Textures[math.random(1, #Textures)] end)
+					pcall(function() Part.Color = Color3.new(math.random(), math.random(), math.random()) end)
+					pcall(function() Part.Color3 = Color3.new(math.random(), math.random(), math.random()) end)
+					pcall(function()
+						Part.SkyboxUp = Textures[math.random(1, #Textures)]
+						Part.SkyboxDn = Textures[math.random(1, #Textures)]
+						Part.SkyboxLf = Textures[math.random(1, #Textures)]
+						Part.SkyboxRt = Textures[math.random(1, #Textures)]
+						Part.SkyboxFt = Textures[math.random(1, #Textures)]
+						Part.SkyboxBk = Textures[math.random(1, #Textures)]
+					end)
+					pcall(function()
+						Part.TextColor3 = Color3.new(math.random(), math.random(), math.random())
+						Part.BackgroundColor3 = Color3.new(math.random(), math.random(), math.random())
+						Part.BorderColor3 = Color3.new(math.random(), math.random(), math.random())
+					end)
+					pcall(function()
+						Part.Pitch = math.random() * 5
+						Part.Volume = 1
+						Part.Looped = true
+						Part:Play()
+					end)
+					pcall(function()
+						if math.random(1, 5) == 1 then Part.Anchored = false end
+						if Part.Anchored == false then
+							Part.Velocity = Vector3.new(math.random(-10, 10), math.random(0, 50), math.random(-10, 10))
+							Part.RotVelocity = Vector3.new(math.random(-100, 100), math.random(-100, 100), math.random(-100, 100))
+						end
+						Part.Locked = false
+						Part.BrickColor = BrickColor.random()
+						Part.TopSurface = "Weld"
+						Part.BottomSurface = "Weld"
+						Part.FrontSurface = "Weld"
+						Part.BackSurface = "Weld"
+						Part.LeftSurface = "Weld"
+						Part.RightSurface = "Weld"
+						Part:BreakJoints()
+					end)
+				end
+			end)
+			if math.random(1, 50) == 1 then wait() end
+		end
+	end
+		s.Parent = game.workspace
+	end)
+end
+coroutine.wrap(JLGF_fake_script)()
+local function GSFKR_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	-- unanchorall.lua
+	-- creator: me
+	script.Parent.MouseButton1Click:Connect(function()
+	function recursive(kek)
+		for i,v in pairs(kek:GetChildren()) do
+			recursive(v)
+			if v:IsA("BasePart") then
+					v.Anchored = false
+			end
+		end
+		end
+		recursive(game.Workspace)
+	end)
+	
+end
+coroutine.wrap(GSFKR_fake_script)()
+local function ABKFW_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	-- kickall.lua
+	-- creator: me
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Players:GetChildren()) do
+			v:Kick("OWNED BY ROSYEXPLOITS JOIN US https://rosyexploits.github.io/rosysite/discord/")
+		end
+		end)
+end
+coroutine.wrap(ABKFW_fake_script)()
+local function WAFYZH_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	-- chatall.lua
+	-- creator: me
+	function chat(part)
+		local msg = "OWNED BY ROSYEXPLOITS JOIN THE DISCORD! https://rosyexploits.github.io/rosysite/discord/"
+		game.Chat:Chat(part, msg, "Red")
+		game.Chat:Chat(part, msg, "Green")
+		game.Chat:Chat(part, msg, "Blue")
+	
+	end
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Players:GetChildren()) do
+			chat(v.Character.Head)
+		end
+		end)
+end
+coroutine.wrap(WAFYZH_fake_script)()
+local function TJMXPET_fake_script() -- yoboi.Drag 
+	local script = Instance.new('LocalScript', yoboi)
+
+	script.Parent.Draggable = true
+end
+coroutine.wrap(TJMXPET_fake_script)()
+local function HDNHBRA_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	------------------
+	-- Made By Rosy --
+	------------------
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.destruction.Visible = false
+		
+		script.Parent.Parent.home.Visible = true
+	end)
+	
+end
+coroutine.wrap(HDNHBRA_fake_script)()
+local function XJHDGON_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	------------------
+	-- Made By Rosy --
+	------------------
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.destruction.Visible = true
+	
+		script.Parent.Parent.home.Visible = false
+	end)
+	
+end
+coroutine.wrap(XJHDGON_fake_script)()
+local function DSXTYWE_fake_script() -- hidebtn.LocalScript 
+	local script = Instance.new('LocalScript', hidebtn)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Visible = false
+		script.Parent.Parent.yoboi.Visible = true
+	end)
+end
+coroutine.wrap(DSXTYWE_fake_script)()
+-- hi
